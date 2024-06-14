@@ -35,6 +35,7 @@ Plugin 'sainnhe/everforest'
 Plugin 'chazmcgarvey/vim-mermaid'
 Plugin 'mcchrish/nnn.vim'
 Plugin 'lervag/vimtex'
+Plugin 'ionide/Ionide-vim'
 
 " Vundle End
 call vundle#end()
