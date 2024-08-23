@@ -1,4 +1,5 @@
 set nocompatible              " be iMproved, required
+set encoding=utf-8
 filetype plugin indent on                  " required
 syntax on
 
@@ -36,6 +37,8 @@ Plugin 'chazmcgarvey/vim-mermaid'
 Plugin 'mcchrish/nnn.vim'
 Plugin 'lervag/vimtex'
 Plugin 'ionide/Ionide-vim'
+Plugin 'tikhomirov/vim-glsl'
+Plugin 'dylon/vim-antlr'
 
 " Vundle End
 call vundle#end()
@@ -64,3 +67,9 @@ colorscheme everforest
 
 " Allow odt editing in vim
 autocmd BufReadPost *.odt :%!odt2txt %
+
+" Glsl syntax highlighting for vert and frag files
+autocmd! BufNewFile,BufRead *.vert,*.frag set ft=glsl
+
+" Syntax highlighting for antlr
+au BufRead,BufNewFile *.g4 set filetype=antlr4
