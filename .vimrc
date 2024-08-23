@@ -39,6 +39,7 @@ Plugin 'lervag/vimtex'
 Plugin 'ionide/Ionide-vim'
 Plugin 'tikhomirov/vim-glsl'
 Plugin 'dylon/vim-antlr'
+Plugin 'mbbill/undotree'
 
 " Vundle End
 call vundle#end()
