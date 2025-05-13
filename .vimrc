@@ -41,6 +41,7 @@ Plugin 'tikhomirov/vim-glsl'
 Plugin 'dylon/vim-antlr'
 Plugin 'mbbill/undotree'
 Plugin 'puremourning/vimspector'
+Plugin 'ap/vim-css-color'
 
 " Vimspector keybindings 
 nmap <F5>  <cmd>call vimspector#Launch()<cr>            " Start / continue
