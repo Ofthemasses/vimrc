@@ -40,6 +40,15 @@ Plugin 'ionide/Ionide-vim'
 Plugin 'tikhomirov/vim-glsl'
 Plugin 'dylon/vim-antlr'
 Plugin 'mbbill/undotree'
+Plugin 'puremourning/vimspector'
+
+" Vimspector keybindings 
+nmap <F5>  <cmd>call vimspector#Launch()<cr>            " Start / continue
+nmap <F8>  <cmd>call vimspector#Reset()<cr>             " Stop / reset
+nmap <F9>  <cmd>call vimspector#ToggleBreakpoint()<cr>  " Toggle line bp
+nmap <F10> <cmd>call vimspector#StepOver()<cr>          " Step over
+nmap <F11> <cmd>call vimspector#StepInto()<cr>          " Step in
+nmap <F12> <cmd>call vimspector#StepOut()<cr>           " Step out
 
 " Vundle End
 call vundle#end()
